@@ -1,0 +1,29 @@
+{
+  "pages": [
+    { "path": "pages/home/index", "style": { "navigationBarTitleText": "优盘汇" } },
+    { "path": "pages/category/index", "style": { "navigationBarTitleText": "全部分类" } },
+    { "path": "pages/detail/index", "style": { "navigationBarTitleText": "商品详情" } },
+    { "path": "pages/cart/index", "style": { "navigationBarTitleText": "购物车" } },
+    { "path": "pages/checkout/index", "style": { "navigationBarTitleText": "确认订单" } },
+    { "path": "pages/cashier/index", "style": { "navigationBarTitleText": "收银台" } },
+    { "path": "pages/order/list", "style": { "navigationBarTitleText": "我的订单" } },
+    { "path": "pages/order/detail/index", "style": { "navigationBarTitleText": "订单详情" } },
+    { "path": "pages/login/index", "style": { "navigationBarTitleText": "登录" } },
+    { "path": "pages/me/index", "style": { "navigationBarTitleText": "我的" } }
+  ],
+  "tabBar": {
+    "color": "#6b7280",
+    "selectedColor": "#2563eb",
+    "list": [
+      { "pagePath": "pages/home/index", "text": "首页" },
+      { "pagePath": "pages/category/index", "text": "分类" },
+      { "pagePath": "pages/cart/index", "text": "购物车" },
+      { "pagePath": "pages/me/index", "text": "我的" }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "优盘汇"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "优盘汇",
+  "appid": "",
+  "description": "U盘微站",
+  "versionName": "1.0.0",
+  "versionCode": 100,
+  "h5": {
+    "title": "优盘汇",
+    "router": { "mode": "history" },
+    "sdkConfigs": { "maps": {} }
+  },
+  "vueVersion": "3"
+}
