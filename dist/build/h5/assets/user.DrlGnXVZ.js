@@ -1,0 +1,1 @@
+import{y as n,N as s,P as t,Q as o}from"./index-cgyOzqXj.js";import{T as e}from"./config.DsKuK1FD.js";const i=n("user",{state:()=>({token:s(e)||"",phone:"",nickname:""}),getters:{isLogin:n=>!!n.token},actions:{setLogin(n,s){this.token=n,this.phone=s.phone||"",this.nickname=s.nickname||"",t(e,n)},logout(){this.token="",this.phone="",this.nickname="",o(e)}}});export{i as u};
